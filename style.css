@@ -25,9 +25,9 @@ header {
 }
 
 .logo-carrefour {
-    position: relative;
-    top: 5px;
-    left: 25px;
+  position: relative;
+  top: 5px;
+  left: 25px;
 }
 
 .pesquisa {
@@ -93,3 +93,21 @@ footer {
   width: 100%;
 }
 
+@media screen and (min-width: 300px) and (max-width: 900px) {
+  .ul-nav-phone {
+    display: none;
+  }
+
+  .div-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    display: none;
+  }
+
+  .search-icon {
+    display: none;
+  }
+}
