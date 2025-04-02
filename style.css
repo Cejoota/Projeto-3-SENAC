@@ -1,90 +1,91 @@
-:root{
-    --back-gray: #ccc;
+:root {
+  --back-gray: #ccc;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Ubuntu Sans', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu Sans", sans-serif;
 }
 
-body{
-    min-width: 300px;
-    max-width: 1500px;
-    margin: 0 auto;
-    background-color: #1E5BC6;
+body {
+  min-width: 300px;
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: #1e5bc6;
 }
 
-header{
-    width: 100%;
-    align-items: center;
-    background-color: white;
+header {
+  width: 100%;
+  align-items: center;
+  background-color: white;
 }
 
-.pesquisa{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+.logo-carrefour {
+    position: relative;
+    top: 5px;
+    left: 25px;
 }
 
-input{
-    width: 60%;
-    margin-right: 250px;
+.pesquisa {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
-input::placeholder{
-    padding-left: 10px;
-    margin-left: 10px;
+input {
+  width: 60%;
+  margin-right: 250px;
+  margin-top: 10px;
+  padding: 10px;
 }
 
-nav ul{
-    background-color: var(--back-gray);
-    margin-top: 20px;
-    text-align: center;
+input::placeholder {
+  margin-left: 10px;
 }
 
-nav ul li{
-    display: inline-block;
-    padding: 20px;
-    margin-right: 10px;
+.search-icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 18px;
+  right: 330px;
 }
 
-nav ul li a{
-    text-decoration: none;
-    color: black;
+nav ul {
+  background-color: var(--back-gray);
+  margin-top: 20px;
+  text-align: center;
 }
 
-nav ul li a:hover{
-    color: red;
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
 }
 
-footer{
-    text-align: center;
-    margin: 0 auto;
-    background-color: var(--back-gray);
-    color: black;
-    padding: 10px;
-    font-size: 20px;
-    font-weight: bold;
+nav ul li a {
+  text-decoration: none;
+  color: black;
 }
 
-/* STYLE */
-
-.sec-img1{
-    width: 80px;
-    border: 1px solid black;
-    border-radius: 10px;
+nav ul li a:hover {
+  color: red;
 }
 
-.sec-imgprincipal{
-    width: 300px;
-    border: 1px solid black;
-    border-radius: 10px;
-}
-
-.div-img1{
-    display: flex;
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 75%;
+  background-color: var(--back-gray);
+  color: black;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  max-width: 1500px;
+  width: 100%;
 }
