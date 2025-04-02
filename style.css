@@ -73,7 +73,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: red;
+  color: white;
+  background-color: #1e5bc6;
+  padding: 10px;
+  border-radius: 3px;
 }
 
 footer {
