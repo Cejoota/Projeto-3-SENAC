@@ -93,7 +93,7 @@ footer {
   width: 100%;
 }
 
-@media screen and (min-width: 300px) and (max-width: 900px) {
+@media screen and (min-width: 500px) and (max-width: 900px) {
   .ul-nav-phone {
     display: none;
   }
