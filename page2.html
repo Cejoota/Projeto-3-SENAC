@@ -43,19 +43,19 @@
         cursor: pointer;
       }
 
-      #img1:checked ~ .sec-img1 {
+      #img1:checked + .lb1 .sec-img1 {
         border: 1px solid red;
       }
 
-      #img2:checked ~ .sec-img2 {
+      #img2:checked + .lb2 .sec-img2 {
         border: 1px solid red;
       }
 
-      #img3:checked ~ .sec-img3 {
+      #img3:checked + .lb3 .sec-img3 {
         border: 1px solid red;
       }
 
-      #img4:checked ~ .sec-img4 {
+      #img4:checked + .lb4 .sec-img4 {
         border: 1px solid red;
       }
 
@@ -194,14 +194,14 @@
       <section class="sec-main">
         <ul class="list-img1">
           <li>
+            <input
+            class="radio"
+            type="radio"
+            name="radio"
+            id="img1"
+            checked="checked"
+            />
             <label class="lb1" for="img1">
-              <input
-                class="radio"
-                type="radio"
-                name="radio"
-                id="img1"
-                checked="checked"
-              />
               <img
                 id="img1"
                 class="sec-img1"
@@ -211,8 +211,8 @@
             </label>
           </li>
           <li>
+            <input class="radio" type="radio" name="radio" id="img2" />
             <label class="lb2" for="img2">
-              <input class="radio" type="radio" name="radio" id="img2" />
               <img
                 id="img2"
                 class="sec-img2"
@@ -222,8 +222,8 @@
             </label>
           </li>
           <li>
+            <input class="radio" type="radio" name="radio" id="img3" />
             <label class="lb3" for="img3">
-              <input class="radio" type="radio" name="radio" id="img3" />
               <img
                 id="img3"
                 class="sec-img3"
@@ -233,8 +233,8 @@
             </label>
           </li>
           <li>
+            <input class="radio" type="radio" name="radio" id="img4" />
             <label class="lb4" for="img4">
-              <input class="radio" type="radio" name="radio" id="img4" />
               <img
                 id="img4"
                 class="sec-img4"
@@ -244,18 +244,9 @@
             </label>
           </li>
         </ul>
-        <section class="sec-main2">
-          <div class="div-sec-main">
-            <div>
-              <img
-                id="principal1"
-                class="sec-principal1"
-                src="./images/small-aromatizador1.webp"
-                alt="icone-principal-aerosol"
-              />
-            </div>
-          </div>
-        </section>
+        <ul class="teste1">
+          <li><img class="imgteste1" src="./images/small-aromatizador1.webp" alt=""></li>
+        </ul>
         <article class="art-main">
           <p class="par-art1">
             Aromatizador Bom Ar Freshmatic Aerossol Cheirinho de Talco 360ml
