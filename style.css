@@ -51,8 +51,8 @@ input::placeholder {
   width: 20px;
   height: 20px;
   position: relative;
-  top: 18px;
-  right: 330px;
+  top: 20px;
+  right: 235px;
 }
 
 nav ul {
@@ -110,25 +110,4 @@ footer {
   .search-icon {
     display: none;
   }
-}
-
-
-/* teste */
-
-.teste1{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  list-style-type: none;
-  margin: 0 auto;
-}
-
-.imgteste1{
-  width: 340px;
-  /* display: none; */
-}
-
-.imgteste2{
-  display: none;
-  width: 340px;
 }
