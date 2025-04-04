@@ -111,3 +111,20 @@ footer {
     display: none;
   }
 }
+
+/* teste */
+
+.imgteste2, .imgteste3, .imgteste4 {
+  display: none;
+}
+
+#img1:checked ~ .imgteste1,
+#img2:checked ~ .imgteste2,
+#img3:checked ~ .imgteste3,
+#img4:checked ~ .imgteste4 {
+  display: block;
+}
+
+#img1:checked + .sec-img1{
+  display: none;
+}
